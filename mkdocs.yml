@@ -1,0 +1,91 @@
+site_name: Portfolio # Website name(comes on top left in nav bar)
+site_description: Software Engineer | CS Student #browser tab tooltip text
+site_author: Madhukar Shrestha #don't know where does it shows
+
+#Footer
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: 'https://www.linkedin.com/in/sthamadhukar/'
+    - icon: fontawesome/brands/github
+      link: 'https://github.com/sthamadhukar'
+    - icon: fontawesome/brands/facebook
+      link: 'https://www.facebook.com/sthamadboy/'
+    - icon: fontawesome/brands/instagram
+      link: 'https://www.instagram.com/sthamadhukar/'
+    - icon: fontawesome/brands/twitter
+      link: '#' 
+
+
+copyright: Copyright &copy; 2022 <a href="https://www.linkedin.com/in/sthamadhukar/">Madhukar Shrestha</a>
+
+#Theming
+theme:
+    name: material
+    palette:
+        primary: 'black'
+        accent: 'green'
+        # links_color : 'green' #todo, this is not the correct solution
+        
+    logo: 'assets/images/favicon.png'
+    favicon: 'assets/images/favicon.png'
+
+    feature:
+      - tabs: true    
+
+    language: 'en'    
+    extra:
+        search:
+            language: 'en'
+            tokenizer: '[\s\-\.]+'
+    features:
+      - navigation.top
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - toc.integrate
+        
+    # toc:
+    #     disable: true # todo, this is not working. expected this to remove table of contents
+#extra_css:
+#    - 'stylesheets/extra.css' # for disabling toc # not working
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+
+
+nav:
+    - About Me: index.md
+    - Work Experience: work_exp.md
+    - Education: edu_details.md
+        # - Academic Background: 
+    - Resume: cv.md
+    - Certifications/Honors: certification.md
+    - Contact: contact.md
