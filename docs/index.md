@@ -8,7 +8,7 @@ I have been involved in Research projects during my graduate studies with profes
 
 
 ## Interests
-Cloud Computing, Big Data, AWS Services, Full Stack Development,  Cyber Security
+Cloud Computing, Big Data, AWS Services, Full Stack Development,  Cyber Security, Software Engineering
 
 
 ## Skills
