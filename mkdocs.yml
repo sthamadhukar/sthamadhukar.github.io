@@ -23,9 +23,23 @@ copyright: Copyright &copy; 2022 <a href="https://www.linkedin.com/in/sthamadhuk
 theme:
     name: material
     palette:
-        primary: 'black'
-        accent: 'green'
-        # links_color : 'green' #todo, this is not the correct solution
+        - scheme: slate
+          toggle:
+            icon: material/weather-sunny
+            name: Switch to light mode
+          primary: black  
+          accent: green
+        - scheme:  default
+          toggle:
+            icon: material/weather-night
+            name: Switch to dark mode
+          primary: white
+          accent: 'green'
+
+    # palette:
+    #     primary: 'black'
+    #     accent: 'green'
+    #     # links_color : 'green' #todo, this is not the correct solution
         
     logo: 'assets/images/favicon.png'
     favicon: 'assets/images/favicon.png'
