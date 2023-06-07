@@ -1,5 +1,6 @@
 ## University of Central Oklahoma
-- Master of Science, Computer Science · (August 2021 - Ongoing)
+- Master of Science, Computer Science · (August 2021 - May 2023)
+- CGPA 3.90
 
 ## London Metropolitan University
 - Bachelor’s Degree, Computing · (Jan 2014)
