@@ -10,7 +10,7 @@ I have been involved in research projects during my graduate studies with profes
 Cloud Computing, Big Data, AWS Services, Full Stack Development,  Cyber Security, Software Engineering
 
 ## Publications
-CyberSecurity Research paper based on the findings of research published in IEEE (bit.ly/3sYbICr).
+CyberSecurity Research paper based on the findings of research published in IEEE [bit.ly/3sYbICr] (bit.ly/3sYbICr).
 
 ## Skills
 
