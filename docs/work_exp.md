@@ -9,7 +9,7 @@
 * Maintain document for the steps to reproduce
 * Conducted research for dataset creation on cyber security incident analysis and system behavior.
 * Analyzed the system and network calls during vulnerability exploitation and backtracking algorithm.
-* Main contributor to a research paper based on the findings of research published in IEEE [bit.ly/3sYbICr](bit.ly/3sYbICr).
+* Main contributor to a research paper based on the findings of research published in IEEE [bit.ly/3sYbICr](https://bit.ly/3sYbICr).
 * Experience with shell scripting, automation, python, CWE, CVE and cybersecurity approaches.
 * Developed backend service for Cybersecurity surveillance system with the Spring, GRPC, and database.
 > Environment: Linux, sysdig tool, AWS services, Docker, Git, Github Actions, Postgres, SpringBoot, Hibernate.
