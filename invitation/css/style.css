@@ -22,7 +22,7 @@ body {
 
 #page {
   position: relative;
-  overflow-x: auto;
+  overflow-x: hidden;
   width: 100%;
   height: 100%;
   -webkit-transition: 0.5s;
@@ -30,7 +30,8 @@ body {
   transition: 0.5s;
 }
 .offcanvas #page {
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   position: relative;
 }
 .offcanvas #page:after {
