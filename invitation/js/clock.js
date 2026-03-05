@@ -4,12 +4,8 @@ $(document).ready(function() {
   // Grab the current date
   let currentDate = new Date();
 
-  const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-// Example output: "America/Chicago"
-
-
   // Target future date/24 hour time/Timezone
-  let targetDate = moment.tz("2026-03-11 14:00",userTimeZone);
+  let targetDate = moment.tz("2026-03-11 14:00","America/Chicago");
 
   // Calculate the difference in seconds between the future and current date
   let diff = targetDate / 1000 - currentDate.getTime() / 1000;
